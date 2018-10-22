@@ -16,8 +16,8 @@ int main(int argc, char *argv[])
     digitalWrite(1, HIGH);
     digitalWrite(2, LOW);
     while(digitalRead(0) == 0);
-    	digitalWrite(2 , HIGH);
-	digitalWrite(1 , LOW);
+    digitalWrite(2 , HIGH);
+    digitalWrite(1 , LOW);
 	
 
     printf("Trying to connect to server\n");
